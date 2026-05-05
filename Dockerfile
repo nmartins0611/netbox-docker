@@ -1,7 +1,7 @@
 ARG FROM
 FROM ${FROM} AS builder
 
-COPY --from=ghcr.io/astral-sh/uv:0.7 /uv /usr/local/bin/
+COPY --from=quay.io/nmartins/uv:0.7 /uv /usr/local/bin/
 RUN export DEBIAN_FRONTEND=noninteractive \
     && apt-get update -qq \
     && apt-get upgrade \
