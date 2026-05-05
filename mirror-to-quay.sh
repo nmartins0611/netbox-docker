@@ -12,7 +12,7 @@
 
 set -euo pipefail
 
-TARGET_REGISTRY="quay.io/nmartins0611"
+TARGET_REGISTRY="quay.io/nmartins"
 
 # ---------------------------------------------------------------------------
 # Images to mirror: source → flat target name under ${TARGET_REGISTRY}/
